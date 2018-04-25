@@ -3,6 +3,8 @@ layout: default
 title: Caidao's Corner
 ---
 
+
+
 <h4>My Blog:</h4>
 <ul class="posts">
 	{% for post in site.posts %}
