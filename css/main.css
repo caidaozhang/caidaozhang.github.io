@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+header h1 {
+    font-size: 20px;
+    float: left;
+}
+header span {
+    font-size: 14px;
+    float: right;
+}
