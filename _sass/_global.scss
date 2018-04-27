@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+$highlight-color: $f90;
+
+
+header {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    overflow: hidden;
+    h1 {
+        font-size: 20px;
+        float: left;
+    }
+    span {
+        float: right;
+        font-size: 14px;
+    }
+
+}
