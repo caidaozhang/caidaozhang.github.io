@@ -9,10 +9,12 @@
 </head>
 <body>
         {% include header.html %}
-        <h2>{{ page.title }}</h2>
-        <section class="content">
-        {{ content }}
-        </section>
+        <div class="wrapper">
+            <h2>{{ page.title }}</h2>
+            <section class="content">
+            {{ content }}
+            </section>
+        </div>
         {% include footer.html %}
 </body>
 </html>

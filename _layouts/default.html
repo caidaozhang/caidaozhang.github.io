@@ -9,13 +9,15 @@
 </head>
 <body>
     {% include header.html %}
-    <section class="intro">
-        <p>80后，成都，体制内老年过气前端工程师。打算重新振奋下，学习下modern前端的东西，开个Github记录记录。</p>
-        <p>大家多交流、多约火锅。</p>
-    </section>
-    <section class="content">
-    {{ content }}
-    </section>
+    <div class="wrapper">
+        <section class="intro">
+            <p>80后，成都，体制内老年过气前端工程师。打算重新振奋下，学习下modern前端的东西，开个Github记录记录。</p>
+            <p>大家多交流、多约火锅。</p>
+        </section>
+        <section class="content">
+        {{ content }}
+        </section>
+    </div>
     {% include footer.html %}
 </body>
 </html>
