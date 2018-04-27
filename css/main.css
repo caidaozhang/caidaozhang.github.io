@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 body {
     font-family: Monaco, "Courier New", monospace;
 }
@@ -21,4 +24,21 @@ header span {
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    color: #555;
+}
+.wrapper .intro {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 30px 0;
+}
+.wrapper .content h4 {
+    font-size: 24px;
+    
+}
+.wrapper .content .posts {
+    padding-top: 30px;
+    list-style-type: none;
+}
+.wrapper .content .posts span {
+    color: #aaa;
 }
