@@ -38,7 +38,13 @@ header span {
 .wrapper .content .posts {
     padding-top: 30px;
     list-style-type: none;
+    padding-bottom: 30px;
 }
 .wrapper .content .posts span {
     color: #aaa;
+}
+footer {
+    padding: 30px;
+    border-top: 2px solid #d6d6d6;
+    overflow: hidden;
 }
